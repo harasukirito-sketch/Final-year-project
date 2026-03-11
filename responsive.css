@@ -1,0 +1,240 @@
+/* =============================================
+   EDUQUEST - Responsive Stylesheet
+   ============================================= */
+
+@media (max-width: 1200px) {
+    .dashboard-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-grid-equal {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+
+    .sidebar.open {
+        transform: translateX(0);
+    }
+
+    .sidebar-close {
+        display: block;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+
+    .topbar-toggle {
+        display: block;
+    }
+
+    .landing-hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-stats {
+        justify-content: center;
+    }
+
+    .hero-visual {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .auth-left {
+        display: none;
+    }
+
+    .auth-right {
+        padding: 2rem;
+    }
+
+    .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .landing-nav {
+        padding: 1rem 1.5rem;
+    }
+
+    .nav-brand {
+        font-size: 1.25rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-tagline {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+    }
+
+    .hero-desc {
+        font-size: 0.95rem;
+    }
+
+    .hero-visual {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-stats {
+        flex-wrap: wrap;
+        gap: 1.25rem;
+    }
+
+    .landing-features {
+        padding: 3rem 1.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .content-area {
+        padding: 1rem;
+    }
+
+    .welcome-banner {
+        padding: 1.5rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .welcome-icon {
+        display: none;
+    }
+
+    .dashboard-stats {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+    }
+
+    .quiz-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    .quiz-actions {
+        flex-direction: column;
+    }
+
+    .quiz-actions .btn {
+        width: 100%;
+    }
+
+    .topbar-search {
+        display: none;
+    }
+
+    .notifications-dropdown {
+        width: calc(100vw - 2rem);
+        right: 1rem;
+    }
+
+    .modal {
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-tagline {
+        font-size: 0.95rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    .hero-visual {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+
+    .hero-card {
+        padding: 1rem;
+    }
+
+    .auth-form-container {
+        padding: 0 0.5rem;
+    }
+
+    .role-selector {
+        flex-direction: column;
+    }
+
+    .stat-card {
+        padding: 1rem;
+    }
+
+    .stat-card-info .stat-value {
+        font-size: 1.4rem;
+    }
+
+    .tabs {
+        flex-wrap: wrap;
+    }
+
+    .tab {
+        flex: 1;
+        text-align: center;
+        min-width: 80px;
+    }
+
+    .lesson-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toast {
+        min-width: unset;
+        max-width: calc(100vw - 2rem);
+    }
+}
